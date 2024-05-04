@@ -1,0 +1,25 @@
+@mixin flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+@mixin navul {
+  color: whitesmoke;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-right: 100px;
+}
+
+@mixin main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 50%);
+  gap: 30px;
+  margin-top: 10%;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-content: center;
+}
